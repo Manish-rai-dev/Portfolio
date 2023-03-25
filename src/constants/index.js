@@ -122,10 +122,10 @@ import {
       iconBg: "#383E56",
       date: "DEC 2021 - PRESENT",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed various web app solutions as a student in CSI-AKGEC. Using modern technology MERN",
+        "Provided guidance and mentorship to junior students in CSI-AKGEC, helping them develop their skills and improve their understanding of web development.",
+        "Organized workshops and coding events within the college, promoting an inclusive and collaborative learning environment for all students.",
+        "Showcased excellent communication skills and the ability to explain complex technical concepts in a clear and concise manner to individuals of all technical background.",
       ],
     },
     {
@@ -135,10 +135,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided instruction and guidance to a group of 25 interns on the fundamentals of HTML, CSS, and JavaScript.",
+        "Mentored two teams in the development of the frontend of Avenue Properties' website, resulting in a successful launch and positive feedback from stakeholders.",
+        "Demonstrated proficiency in HTML, CSS, JavaScript Events, and the Document Object Model (DOM) throughout the tutoring and mentoring process.",
+        "Utilized effective communication and leadership skills to build a supportive and productive learning environment for interns and teams.",
       ],
     },
     {
@@ -148,10 +148,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed an online platform for EngineerHub from scratch, leading to significant growth in user engagement and revenue.",
+        "Utilized ReactJS, React Hooks, SCSS, Context API, and Git/Github to build a scalable and efficient platform.",
+        "Collaborated with cross-functional teams, including product, design, and engineering, to ensure timely delivery of features and bug fixes.",
+        "Implemented testing and quality assurance processes to ensure high-quality and error-free platform delivery.",
       ],
     }, 
     {
@@ -161,10 +161,9 @@ import {
       iconBg: "#383E56",
       date: "Jan 2023 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided instruction and guidance to a batch of 60 students on website development, including front-end design, back-end development, and deployment strategies.",
+        "Mentored students on industry-standard development practices, including version control, testing, and debugging techniques.",
+        "Successfully completed multiple projects involving the development of websites for local businesses, resulting in improved online presence and customer engagement.",
       ],
     },
 
@@ -175,10 +174,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the development of multiple web platforms utilizing full-stack development techniques.",
+        "Designed and developed hybrid applications using the MERN stack, Bootstrap, and MongoDB, resulting in successful and scalable solutions.",
+        "Successfully managed projects from inception to completion, utilizing project management methodologies to meet strict timelines and deliverables.",
+        "Conducted risk analysis and maintained databases to ensure optimal functionality and security of web platforms and applications.",
       ],
     }
   ];
@@ -212,9 +211,10 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Exam Portal",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "•	Programmed and executed an Exam Portal for conducting the recruitment drive 2022 of CSI-AKGEC club for 2nd year students.",
+        
       tags: [
         {
           name: "react",
@@ -225,49 +225,49 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Node",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Manish-rai-dev/portal",
     },
     {
-      name: "Job IT",
+      name: "FinanceDashboard",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables you to know that wheter your company going to be bankrupt in next 3 months or not",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Node",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tensorflowJS",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Manish-rai-dev/CodeCrushers",
     },
     {
-      name: "Trip Guide",
+      name: "engineerHUB",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A one stop solution for the engineering related problems providing you placements internships courses magazines and etc.",
       tags: [
         {
-          name: "nextjs",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "AWS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "EC2",
           color: "pink-text-gradient",
         },
       ],
