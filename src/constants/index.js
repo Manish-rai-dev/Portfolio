@@ -23,6 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    ori,
+    ehub,
+    SortWind,
+    Crime,
+    ApiDoc,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "MERN Stack",
       icon: mobile,
     },
     {
@@ -54,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -112,28 +117,28 @@ import {
       name: "docker",
       icon: docker,
     },
+ 
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "CSI-AKGEC",
-      icon: starbucks,
+      title: "Software Engineer Intern",
+      company_name: "Oriserve",
+      icon: ori,
       iconBg: "#383E56",
-      date: "DEC 2021 - PRESENT",
+      date: "Mar 2024 - PRESENT",
       points: [
-        "Developed various web app solutions as a student in CSI-AKGEC. Using modern technology MERN",
-        "Provided guidance and mentorship to junior students in CSI-AKGEC, helping them develop their skills and improve their understanding of web development.",
-        "Organized workshops and coding events within the college, promoting an inclusive and collaborative learning environment for all students.",
-        "Showcased excellent communication skills and the ability to explain complex technical concepts in a clear and concise manner to individuals of all technical background.",
-      ],
+        "Solved Multiple issues and changes reported by clients for various enterprise live products, i.e, chat-bots, Voice-bots and Generative AI bots. ",
+        "Utilized tech stack: MongoDB, Node.js, Express.js and 2 queue system RabbitMQ and Bull",
+     ],
     },
     {
-      title: "Web Development Mentor",
-      company_name: "Avenue Properties",
-      icon: meta,
+      title: "Frontend Developer",
+      company_name: "EngineerHub",
+      icon: ehub,
       iconBg: "#E6DEDD",
-      date: "Jun 2022 - Aug 2022",
+      date: "Jul 2023 - Feb 2024",
       points: [
         "Provided instruction and guidance to a group of 25 interns on the fundamentals of HTML, CSS, and JavaScript.",
         "Mentored two teams in the development of the frontend of Avenue Properties' website, resulting in a successful launch and positive feedback from stakeholders.",
@@ -141,19 +146,19 @@ import {
         "Utilized effective communication and leadership skills to build a supportive and productive learning environment for interns and teams.",
       ],
     },
-    {
-      title: "Frontend Developer",
-      company_name: "engineerHUB",
-      icon: tesla,
+     {
+      title: "Full stack Developer",
+      company_name: "SortWind",
+      icon: SortWind,
       iconBg: "#E6DEDD",
-      date: "Aug 2022 - Jan 2023",
+      date: "Feb 2023 - Apr 2023",
       points: [
-        "Developed an online platform for EngineerHub from scratch, leading to significant growth in user engagement and revenue.",
-        "Utilized ReactJS, React Hooks, SCSS, Context API, and Git/Github to build a scalable and efficient platform.",
-        "Collaborated with cross-functional teams, including product, design, and engineering, to ensure timely delivery of features and bug fixes.",
-        "Implemented testing and quality assurance processes to ensure high-quality and error-free platform delivery.",
+        "Spearheaded the development of multiple web platforms utilizing full-stack development techniques.",
+        "Designed and developed hybrid applications using the MERN stack, Bootstrap, and MongoDB, resulting in successful and scalable solutions.",
+        "Successfully managed projects from inception to completion, utilizing project management methodologies to meet strict timelines and deliverables.",
+        "Conducted risk analysis and maintained databases to ensure optimal functionality and security of web platforms and applications.",
       ],
-    }, 
+    },
     {
       title: "Web Developement Intern",
       company_name: "Starting Core",
@@ -166,20 +171,7 @@ import {
         "Successfully completed multiple projects involving the development of websites for local businesses, resulting in improved online presence and customer engagement.",
       ],
     },
-
-    {
-      title: "Full stack Developer",
-      company_name: "SortWind",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Feb 2023 - Present",
-      points: [
-        "Spearheaded the development of multiple web platforms utilizing full-stack development techniques.",
-        "Designed and developed hybrid applications using the MERN stack, Bootstrap, and MongoDB, resulting in successful and scalable solutions.",
-        "Successfully managed projects from inception to completion, utilizing project management methodologies to meet strict timelines and deliverables.",
-        "Conducted risk analysis and maintained databases to ensure optimal functionality and security of web platforms and applications.",
-      ],
-    }
+  
   ];
   
   const testimonials = [
@@ -273,6 +265,48 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Crime Management and Analysis Portal",
+      description:
+        "Developed a portal for police to report crimes and visualize data. Implemented real-time heat maps and crime analysis on a world map, highlighting crime rates with intuitive markers.",
+      tags: [
+        {
+          name: "MERN",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "D3.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Crime,
+      source_code_link: "https://github.com/Manish-rai-dev/CRMS",
+    },
+    {
+      name: "Automated email responses and labeling",
+      description:
+        "This project is a Node.js application that automates email responses and labeling in Gmail. It checks for new emails, sends an auto-reply to those without previous responses, and applies customizable labels for easy organization.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Google API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Gmail API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:ApiDoc,
+      source_code_link: "https://github.com/Manish-rai-dev/openInApp-Assignment",
     },
   ];
   

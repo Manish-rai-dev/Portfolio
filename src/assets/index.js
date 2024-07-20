@@ -29,6 +29,11 @@ import tesla from "./company/tesla.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ori from "./company/ori-icon.jpeg";
+import ehub from "./company/ehub.jpg";
+import SortWind from "./company/Sortwind.svg";
+import Crime from "./company/crime.png";
+import ApiDoc from "./company/apiDoc.png";
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  ori,
+  ehub,
+  SortWind,
+  Crime,
+  ApiDoc,
 };
