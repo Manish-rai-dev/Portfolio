@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import { styles } from '../styles';
 import {ComputersCanvas} from './canvas';
-
+import DownloadButton from './DownloadButton';
 const Hero = () => {
   return (
    <section className='relative w-full h-screen
@@ -16,6 +16,7 @@ const Hero = () => {
         <div className='w-1 sm:h-80 h-40 violet-gradient'>
         </div>
       </div>
+     
       <div>
         <h1 className={`${styles.heroHeadText}
         text-white`}>Hi, I'm <span className='text-[#915eff]'>Manish
@@ -28,24 +29,19 @@ const Hero = () => {
           interfaces and web applications
         </p>
       </div>
+     
     </div>
+    
 
-<div className="absolute xs:bottom-10 bottom-32
+<div className="absolute xs:bottom-10 bottom-40
 w-full flex justify-center items-center">
+<DownloadButton/>
  <a href="#about">
-  <div className='w-[35px] h-[64px] 
+ 
+  <div className=' 
   rounded-3xl border-4 border-secondary flex justify-center
   items-start p-2'>
-     <motion.div
-     animate={{y:[0,24,0]}}
-     transition={{
-      duration:1.5,
-      repeat:Infinity,
-      repeatType:'loop'
-     }}
-     className="w-3 h-3 rounded-full bg-secondary
-     mb-1 "
-     />
+
   </div>
   </a> 
 </div>

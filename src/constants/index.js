@@ -29,6 +29,7 @@ import {
     Crime,
     ApiDoc,
   } from "../assets";
+import DownloadButton from "../components/DownloadButton";
   
   export const navLinks = [
     {
@@ -43,7 +44,7 @@ import {
       id: "contact",
       title: "Contact",
     },
-  ];
+    ];
   
   const services = [
     {
